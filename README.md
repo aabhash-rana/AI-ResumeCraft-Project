@@ -1,8 +1,2 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+gmailAI-ResumeCraft
+The AI ResumeCraft app is a full-stack project that aims to streamline the resume-building process by leveraging artificial intelligence(Gemini API) to assist users in creating personalized, high-quality resumes. The application will offer an intuitive and efficient solution for generating resumes optimized for job applications.
