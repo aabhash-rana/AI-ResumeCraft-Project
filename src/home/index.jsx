@@ -1,10 +1,11 @@
+import Header from '@/components/custom/Header'
 import { UserButton } from '@clerk/clerk-react'
 import React from 'react'
-
 function Home() {
   return (
-    <div className='flex justify-center my-20 items-center'>
-        <UserButton/>
+    <div >
+     <Header />
+      Landing Page
     </div>
   )
 }
