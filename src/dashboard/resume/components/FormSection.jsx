@@ -5,6 +5,9 @@ import { ArrowLeft, ArrowRight, Home, LayoutGrid } from 'lucide-react'
 
 import { Link, Navigate, useParams } from 'react-router-dom';
 import Summery from './forms/Summery';
+import Experience from './forms/Experience';
+import Education from './forms/Education';
+import Skills from './forms/Skills';
 
 
 function FormSection() {
@@ -38,6 +41,14 @@ function FormSection() {
         <PersonalDetail enabledNext={(v)=>setEnableNext(v)} /> 
         :activeFormIndex==2?
         <Summery enabledNext={(v)=>setEnableNext(v)} /> 
+        :activeFormIndex==3?
+        <Experience enabledNext={(v)=>setEnableNext(v)} /> 
+        :activeFormIndex==4?
+        <Education enabledNext={(v)=>setEnableNext(v)} /> 
+        :activeFormIndex==5?
+        <Skills enabledNext={(v)=>setEnableNext(v)} /> 
+        :activeFormIndex==6?
+        <Navigate to={'/my-resume/'+resumeid+"/view"}/>
         :null
         }
 

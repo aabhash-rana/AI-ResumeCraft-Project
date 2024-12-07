@@ -11,7 +11,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
     topP: 0.95,
     topK: 40,
     maxOutputTokens: 8192,
-    responseMimeType: "application/json" ,
+    responseMimeType: "text/plain" ,
   };
   
 

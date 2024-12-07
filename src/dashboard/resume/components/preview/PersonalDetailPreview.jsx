@@ -14,23 +14,23 @@ function PersonalDetailPreview({resumeInfo}) {
        >{resumeInfo?.jobTitle}</h2>
        <h2 className='text-center font-normal text-xs'
         style={{
-            color:resumeInfo?.themeColor
+            color:"#ff6666"
         }}>{resumeInfo?.address}</h2>
 
         <div className='flex justify-between'>
             <h2 className='font-normal text-xs'
              style={{
-                color:resumeInfo?.themeColor
+                color:"#ff6666"
             }}>{resumeInfo?.phone}</h2>
             <h2 className='font-normal text-xs'
              style={{
-                color:resumeInfo?.themeColor
+                color:"#ff6666"
             }}>{resumeInfo?.email}</h2>
 
         </div>
         <hr className='border-[1.5px] my-2'
         style={{
-            borderColor:resumeInfo?.themeColor
+            borderColor:"#ff6666"
         }}
         />
     </div>
