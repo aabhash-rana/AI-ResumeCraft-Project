@@ -53,7 +53,7 @@ function AddResume() {
     }
   return (
     <div >
-        <div className='p-14 py-24 border 
+        <div className='mt-5 p-14 py-24 border 
         items-center flex 
         justify-center bg-gradient-to-b
           from-green-100 via-green-200 to-green-200

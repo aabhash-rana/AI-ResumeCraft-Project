@@ -7,13 +7,13 @@ function Header() {
     const { user, isSignedIn } = useUser();
     return (
         <div className='p-3 px-5 flex justify-between shadow-md'>
-             <Link to={'/dashboard'}>
+             <Link to={'/Dashboard'}>
             <img src='/logo.svg' className='cursor-pointer' width={100} height={100} />
             </Link>
             {isSignedIn ?
                 <div className='flex gap-2 items-center'>
-                    <Link to={'/dashboard'}>
-                        <Button variant="outline">Dashboard</Button>
+                    <Link to={'/'}>
+                        <Button variant="outline">Home Page </Button>
                     </Link>
                     <UserButton />
                 </div> :
